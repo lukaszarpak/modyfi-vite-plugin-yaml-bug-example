@@ -12,12 +12,24 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
+  "engines": {
+    "node": "20.16.0",
+    "yarn": "4.3.1"
+  },
+  "packageManager": "yarn@4.3.1",
+  "volta": {
+    "node": "20.16.0",
+    "yarn": "4.3.1"
+  },
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
+    "vue-i18n": "^9.13.1",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@modyfi/vite-plugin-yaml": "^1.1.0",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.5",

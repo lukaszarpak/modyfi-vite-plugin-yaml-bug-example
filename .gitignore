@@ -28,3 +28,7 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+.pnp.*
+.yarn
+vite.config.ts.*
